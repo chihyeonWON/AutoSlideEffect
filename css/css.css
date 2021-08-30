@@ -55,3 +55,15 @@ label.right {
   background-size: 50%;
   background-repeat: no-repeat;
 }
+[id="slide01"]:checked ~ .slidelist .slideitem {
+  transform: translateX(0);
+}
+[id="slide02"]:checked ~ .slidelist .slideitem {
+  transform: translateX(-100%);
+}
+[id="slide03"]:checked ~ .slidelist .slideitem {
+  transform: translateX(-200%);
+}
+[id="slide04"]:checked ~ .slidelist .slideitem {
+  transform: translateX(-300%);
+}
