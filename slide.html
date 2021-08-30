@@ -5,9 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slide</title>
-    <link rel="stylesheet" href="css.css/"/>
+    <link href="css/css.css" rel="stylesheet" />
 </head>
 <body>
-    
+    <div class="slidebox">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02" >
+        <input type="radio" name="slide" id="slide03" >
+        <input type="radio" name="slide" id="slide04" >
+        <ul class="slidelist">
+            <li class="slideitem">
+                <div>
+                    <label for="slide04" class="left"></label>
+                    <label for="slide02" class="right"></label>
+                    <a><img src="./img/img1.jpg"></a>
+                </div>
+            </li>
+            <li class="slideitem">
+                <div>
+                    <label for="slide01" class="left"></label>
+                    <label for="slide03" class="right"></label>
+                    <a><img src="./img/img2.jpg"></a>
+                </div>
+            </li>
+            <li class="slideitem">
+                <div>
+                    <label for="slide02" class="left"></label>
+                    <label for="slide04" class="right"></label>
+                    <a><img src="./img/img3.jpg"></a>
+                </div>
+            </li>
+            <li class="slideitem">
+                <div>
+                    <label for="slide03" class="left"></label>
+                    <label for="slide01" class="right"></label>
+                    <a><img src="./img/img4.jpg"></a>
+                </div>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
